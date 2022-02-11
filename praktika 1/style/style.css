@@ -1,12 +1,22 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f8faf9;
+    background-color: #b7eed2;
     position: relative;
     font-family: "Dancing Script", cursive;
 }
-
+.header-container {
+    color: whitesmoke;
+    background-color: black;
+    font-family: "Dancing Script", cursive;
+}
+.sectionText {
+    color: whitesmoke;
+    background-color: black;
+    font-family: "Dancing Script", cursive;
+}
  .image-container {
     width: 300px;
     height: 200px;
+    border-radius: 2%;
  } 

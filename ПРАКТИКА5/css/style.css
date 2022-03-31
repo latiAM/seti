@@ -1,0 +1,102 @@
+@import url(reset.css);
+.header{
+	position: fixed;
+	background: black;
+	width: 100vw;
+	height: 8vw;
+	display: flex;
+	z-index: 1;
+}
+.content{
+	position: absolute;
+	margin-top: 8vw;
+}
+.image-container{
+	width: 100vw;
+	height: 55vw;
+	background-image: url("../img/main_img.jpg");
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-container{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 42.5vw;
+	
+	font-family: Monotype Corsiva, Cursive;
+	color: rgb(110, 61, 133);
+	font-weight: 600;
+}
+.header-container h1{
+	font-size: 3vw;
+}
+.header-container2{
+	margin-left: 10vw;
+	display: flex;
+}
+.menu{
+	display: flex;
+}
+ol a{
+	color:rgb(150, 100, 42);
+	margin-left: 1.5vw;
+}
+.header-container a{
+	font-size: 1.5vw;
+}
+.info{
+	display: flex;
+}
+.info section{
+	background: black;
+	color: rgb(255, 253, 251);
+}
+.sectionText{
+	background: black;
+	color: rgb(150, 100, 42);
+}
+.info h2{
+	font-size: 2vw;
+}
+.info p{
+	font-size: 1vw;
+}
+.infocont{
+	width: 31vw;
+	padding: 1vw;
+	background: black;
+	color: white;
+	
+}
+.bio{
+	margin-left: auto;
+	margin-right: auto;
+}
+.sectionText{
+	margin-bottom: 0.5vw;
+	font-size: 1.5vw;
+}
+.link{
+	margin-top: 2vw;
+	display: flex;
+	background: black;
+	
+	padding: 2vw;
+}
+.link h2{
+	
+	margin-right: auto;
+	font-size: 2vw;
+}
+.link ul{
+	margin-right: auto;
+}
+.links a{
+	font-size: 1.5vw;
+	color:rgb(219, 196, 172)
+}
+body{
+    background-color: #5a2b70;
+} 
